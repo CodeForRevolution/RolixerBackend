@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "490f486b-f443-4131-971f-dba3bbe638c3",
+		"name": "Roxiler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26094812"
+	},
+	"item": [
+		{
+			"name": "get all Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://roxiler-utj7.onrender.com/api/v1/transaction/getAll",
+					"protocol": "https",
+					"host": [
+						"roxiler-utj7",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"transaction",
+						"getAll"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "graph data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://roxiler-utj7.onrender.com/api/v1/transaction/graphData?month=6",
+					"protocol": "https",
+					"host": [
+						"roxiler-utj7",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"transaction",
+						"graphData"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

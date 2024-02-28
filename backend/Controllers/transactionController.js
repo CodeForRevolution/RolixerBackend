@@ -252,13 +252,13 @@ try {
 
 module.exports.combine=catchAsyncError(async(req,res,next)=>{
   try {
-    const priceRangeResponse = await axios.get('http://localhost:4000/api/v1/transaction/price',{ params: {
+    const priceRangeResponse = await axios.get('https://roxiler-utj7.onrender.com/api/v1/transaction/price',{ params: {
       month: req.query.month
     }});
-    const catgoryRangeResponse = await axios.get('http://localhost:4000/api/v1/transaction/category',{ params: {
+    const catgoryRangeResponse = await axios.get('https://roxiler-utj7.onrender.com/api/v1/transaction/category',{ params: {
       month: req.query.month
     }});
-    const saleRangeResponse = await axios.get('http://localhost:4000/api/v1/transaction/statics',{ params: {
+    const saleRangeResponse = await axios.get('https://roxiler-utj7.onrender.com/api/v1/transaction/statics',{ params: {
       month: req.query.month
     }});
   

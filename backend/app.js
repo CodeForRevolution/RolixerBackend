@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 const errormiddleware=require("./middleware/error")
 app.get("/",(req,res,next)=>{
-  res.send("<h1>WellCome to Rolixer Pvt. Ltd. </h1>")
+  res.send("<h1>WellCome to ROXILER Pvt. Ltd. </h1>")
 })
 app.use("/api/v1/user/",require("./Route/userRoute"));//This structure should be followed as of now we are making it simple
 app.use("/api/v1/transaction/",require("./Route/transaction"));//This structure should be followed as of now we are making it simple

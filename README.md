@@ -3,7 +3,7 @@ Roxiler Assesment For Backend
 IMP NOTE => please wait for 5 to 10 min for response as it is deployed on free instance 
 
 1. Get All Transactions
-URL: /getAll
+URL: https://roxiler-utj7.onrender.com/api/v1/transaction/getAll
 Method: GET
 Description: Retrieve all transactions with optional pagination and search filters.
 Query Parameters:
